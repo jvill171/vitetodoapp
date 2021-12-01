@@ -1,15 +1,15 @@
 <script setup>
-  import Title from "./components/Title.vue";
-  import List from "./components/List.vue";
+import Title from "./components/Title.vue";
+import List from "./components/List.vue";
 </script>
 
 <template>
   <div class="min-h-screen bg-purple-200">
     <div class="container flex flex-col pt-8 mx-auto space-y-10">
-      <Title/>
+      <Title />
       <div class="flex justify-between">
-      <List />
-      <List isCompleted/>
+        <List />
+        <List isCompleted />
         <!-- <div class="w-1/3">
           <h3 class="text-2xl font-bold text-center text-green-600">Completed</h3>
             <ul>
@@ -20,7 +20,7 @@
               {{todo.content}}</li>
             </ul>
         </div> -->
-      </div >
+      </div>
     </div>
   </div>
 </template>
